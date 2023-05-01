@@ -1,42 +1,150 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Login Form</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
-<body>
-	<div class="container">
-		<div class="row justify-content-center mt-5">
-			<div class="col-md-6">
-				<div class="card">
-					<div class="card-header">
-						<h4 class="text-center">Login Form</h4>
-					</div>
-					<div class="card-body">
-						<form>
-									<div class="form-group">
-								<label for="password">Password:</label>
-								<input type="password" class="form-control" id="password" name="password" >
-							</div>
-							<div class="form-group">
-								<label for="username">Username:</label>
-								<input type="text" class="form-control" id="username" name="username" >
-							</div>
-					
-							<button type="submit" class="btn btn-primary btn-block">Login</button>
-									<br>
-							<button type="submit" class="btn btn-primary btn-block">Don't have an account Signin here</button> 
+	<head>
+		<title>Sign In Form</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row justify-content-center mt-5">
+				<div class="col-md-6">
+					<div class="card">
+						<div class="card-header">
+							<h4 class="text-center">Sign In</h4>
+						</div>
+						<div class="card-body">
+							<form>
+								<div class="form-group">
+									<input
+										type="fname"
+										class="form-control"
+										id="fname"
+										name="fname"
+									/>
+									<label for="name">Firstname:</label>
+								</div>
+								<div class="form-group">
+									<input
+										type="lname"
+										class="form-control"
+										id="lname"
+										name="lname"
+									/>
+									<label for="name">Lastname:</label>
+								</div>
+								<div class="form-group">
+									<input
+										type="email"
+										class="form-control"
+										id="email"
+										name="email"
+									/>
+									<label for="name">Email:</label>
+								</div>
 
-						</form>
+								<div class="form-group">
+									<select name="birth_month" id="birth_month">
+										<option value="01">December</option>
+										<option value="02">January</option>
+										<option value="03">Novemeber</option>
+										<option value="04">February</option>
+										<option value="05">March</option>
+										<option value="06">October</option>
+										<option value="07">May</option>
+										<option value="08">September</option>
+										<option value="09">July</option>
+										<option value="10">April</option>
+										<option value="11">October</option>
+										<option value="12">June</option>
+									</select>
+									<select name="birth_day" id="birth_day">
+										<option value="01">1</option>
+										<option value="02">2</option>
+										<option value="03">3</option>
+										<option value="04">4</option>
+										<option value="05">5</option>
+										<option value="06">6</option>
+										<option value="07">7</option>
+										<option value="08">8</option>
+										<option value="09">9</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+										<option value="13">13</option>
+										<option value="14">14</option>
+										<option value="15">15</option>
+										<option value="16">16</option>
+										<option value="17">17</option>
+										<option value="18">18</option>
+										<option value="19">19</option>
+										<option value="20">20</option>
+										<option value="21">21</option>
+										<option value="22">22</option>
+										<option value="23">23</option>
+										<option value="24">24</option>
+										<option value="25">25</option>
+										<option value="26">26</option>
+										<option value="27">27</option>
+										<option value="28">28</option>
+										<option value="29">29</option>
+										<option value="30">30</option>
+										<option value="31">31</option>
+									</select>
+									<select name="birth_year" id="birth_year">
+										<option value="01">Two Thousand</option>
+										<option value="02">Two Thousand and one</option>
+										<option value="03">Two Thousand and two</option>
+										<option value="04">Two Thousand and three</option>
+										<option value="05">Two Thousand and four</option>
+										<option value="06">Two Thousand and five</option>
+										<option value="07">Two Thousand and six</option>
+										<option value="08">Two Thousand and seven</option>
+										<option value="09">Two Thousand and eight</option>
+										<option value="10">Two Thousand and nine</option>
+										<option value="11">Two Thousand and ten</option>
+										<option value="12">Two Thousand and eleven</option>
+										<option value="13">Two Thousand and twelve</option>
+										<option value="14">Two Thousand and thirteen</option>
+										<option value="15">Two Thousand and fourteen</option>
+										<option value="16">Two Thousand and fifteen</option>
+										<option value="17">Two Thousand and sixteen</option>
+										<option value="18">Two Thousand and seventeen</option>
+										<option value="19">Two Thousand and eighteen</option>
+										<option value="20">Two Thousand and nineteen</option>
+										<option value="21">Two Thousand and twenty</option>
+										<option value="22">Two Thousand and twenty one</option>
+										<option value="23">Two Thousand and twenty two</option>
+										<option value="24">Two Thousand and twenty three</option>
+									</select>
+									<label for="date">Date of Birth:</label>
+								</div>
+								<div class="form-group">
+									<input
+										type="password"
+										class="form-control"
+										id="password"
+										name="password"
+										required
+									/>
+									<label for="password">Password:</label>
+								</div>
+
+								<button type="submit" class="btn btn-primary btn-block">
+									Sign In
+								</button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>
